@@ -17,6 +17,7 @@
 		F87F08DF1D20267D00892674 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F08DE1D20267D00892674 /* TestUITests.m */; };
 		F87F08EE1D20276400892674 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F08ED1D20276400892674 /* ViewController1.m */; };
 		F87F08F11D20277500892674 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F08F01D20277500892674 /* ViewController2.m */; };
+		F87F09001D2032FE00892674 /* ShoppingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F08FF1D2032FE00892674 /* ShoppingModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		F87F08ED1D20276400892674 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		F87F08EF1D20277500892674 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		F87F08F01D20277500892674 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		F87F08FE1D2032FE00892674 /* ShoppingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingModel.h; sourceTree = "<group>"; };
+		F87F08FF1D2032FE00892674 /* ShoppingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,14 +132,10 @@
 		F87F08B81D20267C00892674 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				F87F08EF1D20277500892674 /* ViewController2.h */,
-				F87F08F01D20277500892674 /* ViewController2.m */,
-				F87F08EC1D20276400892674 /* ViewController1.h */,
-				F87F08ED1D20276400892674 /* ViewController1.m */,
+				F87F08FD1D2032DF00892674 /* Model */,
+				F87F08FC1D2032C300892674 /* ViewController */,
 				F87F08BC1D20267C00892674 /* AppDelegate.h */,
 				F87F08BD1D20267C00892674 /* AppDelegate.m */,
-				F87F08BF1D20267C00892674 /* ViewController.h */,
-				F87F08C01D20267C00892674 /* ViewController.m */,
 				F87F08C51D20267C00892674 /* Assets.xcassets */,
 				F87F08C71D20267C00892674 /* LaunchScreen.storyboard */,
 				F87F08CA1D20267C00892674 /* Info.plist */,
@@ -169,6 +168,28 @@
 				F87F08E01D20267D00892674 /* Info.plist */,
 			);
 			path = TestUITests;
+			sourceTree = "<group>";
+		};
+		F87F08FC1D2032C300892674 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F87F08EF1D20277500892674 /* ViewController2.h */,
+				F87F08F01D20277500892674 /* ViewController2.m */,
+				F87F08EC1D20276400892674 /* ViewController1.h */,
+				F87F08ED1D20276400892674 /* ViewController1.m */,
+				F87F08BF1D20267C00892674 /* ViewController.h */,
+				F87F08C01D20267C00892674 /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F87F08FD1D2032DF00892674 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F87F08FE1D2032FE00892674 /* ShoppingModel.h */,
+				F87F08FF1D2032FE00892674 /* ShoppingModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +377,7 @@
 				F87F08F11D20277500892674 /* ViewController2.m in Sources */,
 				F87F08BE1D20267C00892674 /* AppDelegate.m in Sources */,
 				F87F08BB1D20267C00892674 /* main.m in Sources */,
+				F87F09001D2032FE00892674 /* ShoppingModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
