@@ -18,6 +18,8 @@
 		F87F08EE1D20276400892674 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F08ED1D20276400892674 /* ViewController1.m */; };
 		F87F08F11D20277500892674 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F08F01D20277500892674 /* ViewController2.m */; };
 		F87F09001D2032FE00892674 /* ShoppingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F08FF1D2032FE00892674 /* ShoppingModel.m */; };
+		F87F09041D20356300892674 /* ShoppingService.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F09031D20356300892674 /* ShoppingService.m */; };
+		F87F09071D2103C400892674 /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F09061D2103C400892674 /* DescriptionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,10 @@
 		F87F08F01D20277500892674 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		F87F08FE1D2032FE00892674 /* ShoppingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingModel.h; sourceTree = "<group>"; };
 		F87F08FF1D2032FE00892674 /* ShoppingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingModel.m; sourceTree = "<group>"; };
+		F87F09021D20356300892674 /* ShoppingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingService.h; sourceTree = "<group>"; };
+		F87F09031D20356300892674 /* ShoppingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingService.m; sourceTree = "<group>"; };
+		F87F09051D2103C400892674 /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		F87F09061D2103C400892674 /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,8 @@
 		F87F08B81D20267C00892674 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				F87F09081D2103DB00892674 /* View */,
+				F87F09011D20353B00892674 /* Service */,
 				F87F08FD1D2032DF00892674 /* Model */,
 				F87F08FC1D2032C300892674 /* ViewController */,
 				F87F08BC1D20267C00892674 /* AppDelegate.h */,
@@ -179,6 +187,8 @@
 				F87F08ED1D20276400892674 /* ViewController1.m */,
 				F87F08BF1D20267C00892674 /* ViewController.h */,
 				F87F08C01D20267C00892674 /* ViewController.m */,
+				F87F09051D2103C400892674 /* DescriptionViewController.h */,
+				F87F09061D2103C400892674 /* DescriptionViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -190,6 +200,22 @@
 				F87F08FF1D2032FE00892674 /* ShoppingModel.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		F87F09011D20353B00892674 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F87F09021D20356300892674 /* ShoppingService.h */,
+				F87F09031D20356300892674 /* ShoppingService.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		F87F09081D2103DB00892674 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,11 +399,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F87F08EE1D20276400892674 /* ViewController1.m in Sources */,
+				F87F09071D2103C400892674 /* DescriptionViewController.m in Sources */,
 				F87F08C11D20267C00892674 /* ViewController.m in Sources */,
 				F87F08F11D20277500892674 /* ViewController2.m in Sources */,
 				F87F08BE1D20267C00892674 /* AppDelegate.m in Sources */,
 				F87F08BB1D20267C00892674 /* main.m in Sources */,
 				F87F09001D2032FE00892674 /* ShoppingModel.m in Sources */,
+				F87F09041D20356300892674 /* ShoppingService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
